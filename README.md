@@ -1,10 +1,11 @@
-# Introduction to Python at SciPy 2023
+# Introduction to Python at SciPy 2026
 
-Monday, July 10 from 8:00 AM - 12:00 PM CDT
+Monday, July 13 from 8:00 AM - 12:00 PM CDT
 
 This tutorial is a gentle introduction to Python for folks who are completely
 new to it and may not have much experience programming.
-We’ll work in a [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/),
+We’ll work in a [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+(either standalone or via [Jupyter Lab](https://jupyterlab.readthedocs.io/en/latest/)),
 one of the most popular tools in scientific Python.
 You’ll learn how to write beautiful Python while practicing loops, if’s,
 functions, and usage of Python’s built-in features in a series of fun,
@@ -14,35 +15,30 @@ basic Python -- but most importantly, we want you to learn the form and
 vocabulary of Python so that you can understand Python documentation and
 interpret code written by others.
 
-See the tutorial description on the conference website
-[here](https://cfp.scipy.org/2023/talk/CDRJYE/).
-
 ## Setup Instructions
 
 **Please do at least the download and install of Anaconda before coming to the tutorial!**
 **We can help with further setup at the tutorial.**
 
 If you don't already have Anaconda installed, download and install Anaconda
-for **Python 3** (_not Python 2_):
-https://www.anaconda.com/download.
+for **Python 3**:
+https://www.anaconda.com/download/success?reg=skipped.
+(Note that it is **not** necessary to create an account to install Anaconda.)
 
 If you're prompted to install [VS Code](https://code.visualstudio.com/)
 we recommend you **do** install it unless you already have a code editor
 you prefer.
 
-After installing Anaconda you can test your installation using
-[these instructions](https://docs.anaconda.com/free/anaconda/getting-started/hello-world/#write-a-python-program-using-a-cli).
 
-
-If you'd like to do your own setup, we'll be using the following Python libraries:
-
-- [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+If you'd like to do your own setup, you can install either
+[Jupyter Lab](https://jupyterlab.readthedocs.io/en/latest/) (recommended)
+OR [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/).
 
 ### Backup Option: Binder
 
 If you're not able to get Anaconda installed/working you can
 still follow along in class by going to this URL and launching the notebooks:
-https://mybinder.org/v2/gh/jiffyclub/scipy-2023-intro-to-python/HEAD.
+https://mybinder.org/v2/gh/jiffyclub/scipy-2026-intro-to-python/HEAD.
 However, note that Binder will not persist your work and will "forget" about
 it after a period of idleness.
 Make sure to download your work as soon as you finish a lesson so you can
