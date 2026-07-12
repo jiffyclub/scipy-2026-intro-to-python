@@ -77,8 +77,13 @@ file.
 - Exercise 2
 
 - Exercise 3
-    - You can use `[-1, -1]` to get the lower-right block and explain
-      Python's negative indexing.
+
+- You can use `[-1, -1]` to get the lower-right block and explain
+  Python's negative indexing.
+  - Also useful to mention the shortcut of assigning colors directly
+    to the grid:
+
+        grid[-1, -1].rgb = colors.Magenta
 
 - Exercise 4
 
@@ -141,9 +146,8 @@ Now to add logic so we can make some blocks different colors from others.
 
 - Exercise 8
 
-- Show the students that blocks have `.red`, `.green`, and `.blue` attributes
-  they can use see the value of individual block color channels. (These can
-  also be used to change the color values one at a time.)
+- Explain to students that the `.rgb` attribute isn't only for assignment,
+  it can be used to see what color a block is and be compared to other colors
 
 - Exercise 9
 
@@ -156,6 +160,8 @@ looping over the whole thing.
 - Take a look at the docstring for `range`.
 - Show an example of changing the color of a single row by looping over
   `range(grid.width)` and varying only the column index.
+- `grid.flash()` is useful for showing the state of the grid at the end of
+  each loop
 
 - Exercise 10
 
